@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Victor+Mono:wght@100&display=swap');
+
+
+:root {
+
+    --color1: #FF0082;
+    --color2: #f52aa7;
+    --color3: #ffffff;
+    --color4: #ff3da8;
+    --color5: #ff1c68;
+
+    --text1: #000000;
+    --text2: #fff;
+    --text3: #ffb6c1;
+}
+.policy{
+    padding: 3rem 10rem;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color5);
+    
+}

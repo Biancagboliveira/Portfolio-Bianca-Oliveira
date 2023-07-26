@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CONFIGURAÇÕES-->
+
+    <link rel="stylesheet" href="CSS/contato.css">
+    <link rel="stylesheet" href="CSS/homepage.css">
+
+    <link rel="icon" href="img/icon.png">
+
+    <link rel="stylesheet" href="CSS/universal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Bianca Oliveira</title>
+</head>
+
+<body>
+
+    <!------------------- HEADER ------------------>
+
+    <header id="header">
+
+        <img id="logo" src="img/logosemfundo.png.png" alt="logotipo">
+
+        <nav id="nav">
+
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+
+            <ul id="menu" role="menu">
+                <li><a href="index.html">SOBRE</a></li>
+                <li><a href="projetos.html">PROJETOS</a></li>
+                <li><a href="certificados.html">CERTIFICADOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!--PRIMEIRA SEÇÃO-->
+
+    <!--FORMULÁRIO-->
+
+    <br>
+
+    <div class="container-a">
+
+        <h1>Entre em contato comigo através do E-mail:</h1>
+
+        <div class="container">
+
+            <form id="form" method="POST" action="https://api.staticforms.xyz/submit">
+
+
+
+                <input type="hidden" name="accessKey" value="f5d72d87-5fec-41b5-a611-addfadadc70a" />
+
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html" />
+
+                <div class="config-box">
+
+
+                    <input class="input-1" type=" text" id="name" name="name" placeholder="Seu nome" />
+
+
+                    <input class="input-1" type="email" id="email" name="email" placeholder="Seu e-mail" />
+
+                </div>
+                <br>
+
+                <textarea name="message" id="message" placeholder="Escreva sua mensagem"></textarea>
+                <br>
+
+                <div class="check">
+
+                    <input type="checkbox" name="checkbox" class="check" required>
+                    <label class="tex-box" for="checkbox">Eu aceito os termos da <a class="politica"
+                            href="politica.html">Política de privacidade</a> </label>
+
+                </div>
+                <br>
+
+                <button type="submit" id="btnCheck">Enviar</button>
+
+            </form>
+
+        </div>
+        <br>
+        <!--FIM DORMULÁRIO-->
+
+
+        <br>
+        <br>
+
+        <!--BOTÃO VOLTAR-->
+        <div id="btnTop">
+            <i class="arrow up"></i>
+
+        </div>
+
+        <!---RODAPÉ--->
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+
+                    <img class="logo-footer" id="logo" src="img/logosemfundo.png.png" alt="logotipo">
+                    <p>Por favor me siga nas redes sociais
+                        <i class="fa-solid fa-hand-holding-heart" style="color: #000000;"></i>
+                    </p>
+
+
+                    <div id="footer_social_media">
+                        <a href="https://www.instagram.com/biancagboliveira/" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram fa-fade" style="color: #ffffff;"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/biancagboliveira/" class="footer-link" id="linkedin">
+                            <i class="fa-brands fa-linkedin fa-fade" style="color: #ffffff;"></i>
+                        </a>
+
+                        <a href="https://github.com/Biancagboliveira" class="footer-link" id="github">
+                            <i class="fa-brands fa-github-alt fa-fade" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>MENU</h3>
+                    </li>
+                    <li>
+                        <a href="index.html" class="footer-link">SOBRE</a>
+                    </li>
+                    <li>
+                        <a href="certificados.html" class="footer-link">CERTIFICADOS</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" class="footer-link">CONTATO</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>PROJETOS</h3>
+                    </li>
+                    <li>
+                        <a href="https://betosalvacao.org/" class="footer-link">BETO SALVA CÃO - TCC</a>
+                    </li>
+                    <li>
+                        <a href="https://biancagboliveira.github.io/Galeria-de-Artes/" class="footer-link">GALERIA DE
+                            ARTES</a>
+                    </li>
+                    <li>
+                        <a href="projetos.html" class="footer-link">OUTROS PROJETOS</a>
+                    </li>
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>ENVIE UMA MENSAGEM</h3>
+
+                    <p>
+                        Acesse o link e envie um E-mail.
+                    </p>
+
+                    <div id="input_group">
+
+                        <button>
+                            <a href="contato.html">
+                                <i class="fa-regular fa-envelope fa-fade" style="color: #ffffff;"></i>
+                            </a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2023 Direitos reservados a Bianca Gomes Barbosa de Oliveira.
+            </div>
+
+        </footer>
+
+        <!--FIM RODAPÉ-->
+
+        <!---SCRIPT--->
+        <script src="js/contact.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/button.js"></script>
+        <!--FIM SCRIPT-->
+
+</body>
+
+</html>

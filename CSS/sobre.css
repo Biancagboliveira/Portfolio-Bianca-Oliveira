@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+
+    --color1: #FF0082;
+    --color2: #f52aa7;
+    --color3: #ffffff;
+    --color4: #ff3da8;
+    --color5: #ff1c68;
+
+    --text1: #000000;
+    --text2: #fff;
+    --text3: #ffb6c1;
+    --text4: #ff1c68a6;
+}
+
+.apresentacao{
+   display: grid;/*aplicando sessoes para trabalhar com as ferramentas do lealt grid*/
+   grid-template-columns:repeat(2, 1fr);
+
+   margin-bottom: 2rem;
+   background: var(--color3);
+   
+   text-align: justify;
+}
+
+/*--TEXTOS--*/
+.apresentacao h1{
+    margin-bottom: 2rem;
+    font-size: 3.0vw;
+}
+.apresentacao h2{
+    font-size: 2.2vw;
+    color: var(--color5);
+}
+.apresentacao p{
+    font-size: 2.0vw;
+}
+.apresentacao span{
+    color: var(--color5);
+}
+.skills h1{
+    font-size: 5.0vw;
+    color: var(--text1);
+    font-family: 'VT323', monospace;
+}
+
+/*--IMAGEM--*/
+.apresentacao img{
+    height: 550px;
+}
+
+.apresentacao>div{
+    padding: 2rem;
+}/* chamando o chield selector/ elemento filho é aplicado para cada div filhas do elemento .card */
+
+
+.container-sobre{
+    max-width: 1100px;/*largura maxima se baseando na largura da tela*/
+    margin: auto;
+    overflow: auto;/* para nao transbordar no container*/
+    padding: 0 2rem;/*orizontal e vertical*/
+}
+
+img{
+    width: 100%; /*do elemento pai*/
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills i {
+    font-size: 5.0rem;    
+}
+.skills li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

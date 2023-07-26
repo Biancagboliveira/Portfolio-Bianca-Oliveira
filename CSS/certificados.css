@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+
+    --color1: #FF0082;
+    --color2: #f52aa7;
+    --color3: #ffffff;
+    --color4: #ff3da8;
+    --color5: #ff1c68;
+
+    --text1: #000000;
+    --text2: #fff;
+    --text3: #ffb6c1;
+    --text4: #ff1c68a6;
+}
+
+/*--TITULO--*/
+.text-cert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'VT323', monospace;
+    font-size: 3.5rem;
+    color: var(--color5);
+    text-shadow: 3px 4px 3px var(--text1);
+}
+
+@media screen and (max-width: 768px) {
+    .text-cert{
+        font-size: 2.5rem;
+    }
+}
+
+
+/*--FIM--*/
+
+.container-slider{
+    display: flex;
+    width: 1005;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container-images{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+
+}
+
+.slider{
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.on{
+    opacity: 1;
+}
+
+#prev-button{
+    transform: rotate(180deg);
+}
+
+#prev-button, #next-button{
+    background-color: var(--text3);
+    border: none;
+    font-size: 2.0rem;
+    height: 100%;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
